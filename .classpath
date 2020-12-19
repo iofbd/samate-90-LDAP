@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<classpath>
+	<classpathentry kind="src" path="src/"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/bin/lib/javamail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/bin/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/bin/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/bin/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/lib/javamail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/src/testcases/CWE89_SQL_Injection_s02.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/src/testcases/CWE89_SQL_Injection_s03.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/src/testcases/CWE89_SQL_Injection_s01.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/src/testcases/CWE89_SQL_Injection_s04.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/src/testcases/CWE80_XSS_s01.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/src/testcases/CWE78_OS_Command_Injection.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/src/testcases/CWE80_XSS_s02.jar"/>
+	<classpathentry kind="lib" path="/Users/munawar/Desktop/OR_PLUGIN_CMDLINE_JAVA/source/samate/src/testcases/CWE90_LDAP_Injection.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+</classpath>
