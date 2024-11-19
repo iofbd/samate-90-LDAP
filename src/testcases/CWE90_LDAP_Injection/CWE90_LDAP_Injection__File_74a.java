@@ -16,6 +16,7 @@ Template File: sources-sink-74a.tmpl.java
 
 package testcases.CWE90_LDAP_Injection;
 
+import io.github.pixee.security.BoundedLineReader;
 import testcasesupport.*;
 import java.util.HashMap;
 
@@ -52,7 +53,7 @@ public class CWE90_LDAP_Injection__File_74a extends AbstractTestCase
                 /* POTENTIAL FLAW: Read data from a file */
                 /* This will be reading the first "line" of the file, which
                  * could be very long if there are little or no newlines in the file */
-                data = readerBuffered.readLine();
+                data = BoundedLineReader.readLine(readerBuffered, 5_000_000);
             }
             catch (IOException exceptIO)
             {
