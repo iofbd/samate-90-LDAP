@@ -16,6 +16,7 @@ Template File: sources-sink-73a.tmpl.java
 
 package testcases.CWE90_LDAP_Injection;
 
+import io.github.pixee.security.BoundedLineReader;
 import testcasesupport.*;
 import java.util.LinkedList;
 
@@ -53,7 +54,7 @@ public class CWE90_LDAP_Injection__connect_tcp_73a extends AbstractTestCase
                 readerBuffered = new BufferedReader(readerInputStream);
 
                 /* POTENTIAL FLAW: Read data using an outbound tcp connection */
-                data = readerBuffered.readLine();
+                data = BoundedLineReader.readLine(readerBuffered, 5_000_000);
             }
             catch (IOException exceptIO)
             {
